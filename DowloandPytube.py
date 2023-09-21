@@ -8,7 +8,7 @@ yt = YouTube(url)
 
 stream = yt.streams.get_by_itag('22')  
 
-# Baixe o vídeo
+# Coloque a sua pasta onde irá gravar o video! 
 stream.download(output_path='C:\\Users\\saturno\\Documents', filename='teste2')
 
 print('Download concluído!')
